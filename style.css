@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+.decheader {
+  background-color: #000000;
+  overflow: hidden;
+  padding: 2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 100px;
+  font-family: 'Lucida Console', Monaco, monospace;
+  text-align: center;
+  width: auto;
+  overflow: hidden;
+  text-shadow: 0 8px 30px rgba(0, 0, 0, 3);
+}
+
+h5 {
+  position: relative;
+  z-index: 1;
+  color: #60E3D5;
+  font-size: 22px;
+  font-family: 'Lucida Console', Monaco, monospace;
+  text-align: center;
+  width: auto;
+  overflow: hidden;
+  text-shadow: 0 8px 30px rgba(0, 0, 0, 3);
+  margin-top: 1em;
+}
+
+#intro {
+  background-color: #1c213b;
+  padding: 18em;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0) 85%), url('introbg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.abouth {
+  background-color: #1a1729;
+  color: #c41fa9;
+  padding: 1em;
+  font-size: 60px;
+  text-align: left;
+  text-shadow: 0 8px 30px rgba(0, 0, 0, 3);
+  margin: 0em;
+}
+
+.aboutd {
+  background-color: #1a1729;
+  color: #60E3D5;
+  padding: 5em;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.ljheader {
+  background-color: #303442;
+  color: #c41fa9;
+  padding: 1em;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 0 8px 30px rgba(0, 0, 0, 3);
+}
+
+.ljcontent {
+  background-color: #303442;
+  color: #60E3D5;
+  padding: 5em;
+  padding-top: 0.5em;
+  font-size: 30px;
+  text-align: center;
+}
+
+.projectheader {
+  background-color: #1a1729;
+  color: #c41fa9;
+  padding: 1em;
+  font-size: 60px;
+  text-align: right;
+  text-shadow: 0 8px 30px rgba(0, 0, 0, 3);
+}
+
+.projectcontent {
+  background-color: #1a1729;
+  color: #60E3D5;
+  padding: 5em;
+  font-size: 30px;
+  text-align: center;
+}
+
+.projectname{
+  color: white;
+  padding: 1em;
+  padding-bottom: 0em;
+  padding-top: 0.5em;
+  font-size: 40px;
+  text-align: center;
+  background-color: #1a1729;
+}
+
+.project{
+  background-color: #1a1729;
+  padding: 5em;
+  padding-top: 0.5em;;
+  margin: 0em;
+  text-align: center;
+  color: #60E3D5;
+  font-size: 20px;
+}
+
+
+.project2{
+  background-color: #1a1729;
+  padding: 5em;
+  padding-top: 0.5em;;
+  margin: 0em;
+  text-align: center;
+  color: #60E3D5;
+  font-size: 20px;
+}
+
+
+a{
+  color: #c41fa9;
+}
+
+.futureprojects{
+  background-color: #1a1729;
+  padding: 2em;
+  padding-top: 0.5em;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+
+.contactheader {
+  background-color: #303442;
+  color: #c41fa9;
+  padding: 1em;
+  padding-bottom: 0em;
+  /*Fix spacing here*/
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 0 8px 30px rgba(0, 0, 0, 3);
+  font-family: 'Lucida Console', Monaco, monospace;
+}
+
+#contact {
+  background-color: #303442;
+  padding: 5em;
+  padding-top: 0em;
+  margin-top: 0em;
+
+
+}
+
+
+
+/* Basic form styles */
+#contactForm {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styles */
+#contactForm label {
+  display: block;
+  margin-bottom: 1em;
+  font-weight: bold;
+  font-family: 'Lucida Console', Monaco, monospace;
+  color: #303442;
+}
+
+/* Input and textarea styles */
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+  width: 100%;
+  padding: 0.75em;
+  margin-bottom: 1.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  font-family: 'Lucida Console', Monaco, monospace;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* Focused state for inputs */
+#contactForm input[type="text"]:focus,
+#contactForm input[type="email"]:focus,
+#contactForm textarea:focus {
+  border-color: #000000;
+  outline: none;
+  box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+}
+
+/* Textarea specific styles */
+#contactForm textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+
+
+/*Social Media Links*/
+.social-media-icons {
+  background-color: #303442;
+  ;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 1em;
+  margin: 0em;
+}
+
+.social-media-icons a {
+  color: #ffffff;
+  /* Icon color */
+  font-size: 30px;
+  /* Icon size */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-media-icons a:hover {
+  color: #817c79;
+  /* Color on hover */
+}
+
+
+
+/* Button styles */
+#contactForm button[type="submit"] {
+  width: 100%;
+  padding: 1em;
+  background-color: #4bb4a9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2em;
+  cursor: pointer;
+  font-family: 'Lucida Console', Monaco, monospace;
+}
+
+#contactForm button[type="submit"]:hover {
+  background-color: #034f7b;
+}
+
+footer {
+  padding: 3em;
+  background-color: #000000;
+  text-align: center;
+  block-size: 2.5em;
+  display: block;
+  margin-bottom: auto;
+  position: relative;
+  z-index: 1;
+}
